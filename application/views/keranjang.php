@@ -35,5 +35,11 @@
         <td align="right" colspan="3">Rp. <?= number_format($this->cart->total(), 0,',','.')?></td>
       </tr>
   </table>
+  <div align="right">
+    <a href="<?= base_url().'dashboard/hapus_keranjang'?>"><div class="btn btn-sm btn-danger" >Hapus Keranjang</div></a>
+    <a href="<?= base_url()?>"><div class="btn btn-sm btn-primary" >Lanjutkan Belanja</div></a>
+    <a href="<?= base_url().'dashboard/pembayaran'?>"><div class="btn btn-sm btn-success" >Pembayaran</div></a>
 
+  </div>
+      
 </div>
