@@ -122,6 +122,23 @@
                 </form>
               </div>
             </li>
+            <!-- 
+          keranjang belanja -->
+            <div class="navbar">
+
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <?php $keranjang = 'Keranjang Belanja: ' . $this->cart->total_items() . 'items' ?>
+
+                  <?=  $keranjang ?>
+                </li>
+              </ul>
+              <div class="topbar-divider d-none d-sm-block"></div>
+
+            </div>
+
+
+
           </ul>
 
         </nav>
