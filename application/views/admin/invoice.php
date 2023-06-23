@@ -22,7 +22,7 @@
         <td><?= $inv->tgl_pesan ?></td>
         <td><?= $inv->batas_bayar ?></td>
         <td>
-          <div class="btn btn-sm btn-primary">Detail</div>
+          <?= anchor('admin/invoice/detail/'.$inv->id, '<div class="btn btn-sm btn-primary">Detail</div>')?>
         </td>
 
       </tr>
