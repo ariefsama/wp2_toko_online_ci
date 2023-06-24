@@ -135,6 +135,21 @@
               </ul>
               <div class="topbar-divider d-none d-sm-block"></div>
 
+              <ul class="nav navbar-nav navbar-right">
+                <?php
+                if ($this->session->userdata('username')) { ?>
+
+                  <li class="mr-3">
+                    <div>Selamat Datang <?= $this->session->userdata('username') ?></div>
+                  </li>
+                  <li><?= anchor('auth/logout', 'Logout') ;?></li>
+
+                <?php } else { ?>
+                  <li><?= anchor('auth/login', 'Login'); ?></li>
+
+                <?php } ?>
+
+              </ul>
             </div>
 
 
