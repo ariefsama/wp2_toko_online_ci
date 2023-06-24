@@ -35,7 +35,7 @@
                   <hr>
 
                   <div class="text-center">
-                    <a class="small" href="register.html">Belum Punya Akun? Daftar!</a>
+                    <a class="small" href="<?= base_url('registrasi/index') ?>">Belum Punya Akun? Daftar!</a>
                   </div>
 
 
