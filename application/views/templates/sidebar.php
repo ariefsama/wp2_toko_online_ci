@@ -19,7 +19,7 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link">
+        <a class="nav-link" href="<?= base_url() ?>">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
@@ -34,31 +34,31 @@
 
       <!-- Nav Item - produk -->
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="<?= base_url() . 'kategori/elektronik' ?>">
           <i class="fas fa-fw fa-tv"></i>
           <span>Elektronik</span></a>
       </li>
       <!-- Nav Item - produk -->
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="<?= base_url() . 'kategori/pakaian_pria' ?>">
           <i class="fas fa-fw fa-tshirt"></i>
           <span>Pakaian Pria</span></a>
       </li>
       <!-- Nav Item - produk -->
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="<?= base_url() . 'kategori/pakaian_wanita' ?>">
           <i class="fas fa-fw fa-tshirt"></i>
           <span>Pakaian Wanita</span></a>
       </li>
       <!-- Nav Item - produk -->
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="<?= base_url() . 'kategori/pakaian_anak_anak' ?>">
           <i class="fas fa-fw fa-tshirt"></i>
           <span>Pakaian Anak-anak</span></a>
       </li>
       <!-- Nav Item - produk -->
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="<?= base_url() . 'kategori/peralatan_olahraga' ?>">
           <i class="fas fa-fw fa-futbol"></i>
           <span>Peralatan Olahraga</span></a>
       </li>
