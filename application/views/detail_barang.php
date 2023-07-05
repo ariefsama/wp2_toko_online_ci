@@ -34,7 +34,7 @@
               </tr>
             </table>
           <?= anchor('dashboard/tambah_ke_keranjang/'.$brg->id_brg,'<div class="btn btn-sm btn-primary">Tambah ke Keranjang</div>')?>
-          <?= anchor('dashboard/index/'.$brg->id_brg,'<div class="btn btn-sm btn-danger">Kembali</div>')?>
+          <a href="<?= base_url()?>"><div class="btn btn-sm btn-primary" >Kembali</div></a>
         </div>
       </div>
       <?php endforeach; ?>
